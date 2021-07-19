@@ -1,0 +1,67 @@
+.customer___slider_config{
+    width: 100%;
+    position: relative;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+.customer___slider_config .slider {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.customer___slider_config  .slick-slide {
+    margin: 0px 20px;
+  }
+
+.customer___slider_config  .slick-slide img {
+    width: 100%;
+  }
+
+.customer___slider_config  .slick-prev:before,
+.customer___slider_config  .slick-next:before {
+    color: #212121;
+}
+
+
+.customer___slider_config  .slick-slide {
+    transition: all ease-in-out .3s;
+    /*opacity: .2;  enable this for opacity bluer except current slide image*/
+    opacity: 1
+  }
+  
+.customer___slider_config  .slick-active {
+    opacity: .5;
+  }
+
+.customer___slider_config  .slick-current {
+    opacity: 1;
+}
+
+
+
+
+
+/*custom css for sliders*/
+
+.customer___slider_config .slick-arrow{
+    opacity: 1 !important;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: absolute;
+    top: calc(50% - 52px);
+    width: 47px;
+    height: 104px;
+    background-color: hsla(0,0%,100%,.98);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.11);
+    transition: opacity .1s ease-in;
+    z-index: 999;
+}
